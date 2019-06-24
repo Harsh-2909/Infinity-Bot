@@ -1,22 +1,21 @@
-'''This file is required to run Harsh\'s Discord.py bot'''
+'''This file is required to run Discord.py bot'''
 
 # Discord App token
 bbtoken = "NTAxOTY4NTcyOTk4NzQ2MTQz.DqhlVw.h9Tz_uwBswlGFMj2CuwsuoFnSTM" #CHANGE TOKEN BEFORE SYNC!! 
 
 # YouTube API key (https://console.developers.google.com/apis/credentials/key)
-key = "key here" #CHANGE KEY BEFORE SYNC!! -Blaze
+key = "key here" #CHANGE KEY BEFORE SYNC!!
 
 '''
-# This specifies what extensions to load when the bot starts up
-startup_extensions = ["cogs.crazi", "cogs.emoji"]
+# This specifies what extensions to load when the bot starts up'''
+startup_extensions = []
 
-logfile = 'discord.log' #Name of the file to log to (eg. 'discord.log')'''
+logfile = 'discord.log' #Name of the file to log to (eg. 'discord.log')
 pref = "." #Command prefix
 des = "Harsh Disord.py Bot made for my guild" #Description shown on using the help command
 
 # Error messages
 err_mesg = ":x: **An error occurred!**"
-err_mesg_pi = ":x: **This command can only be run when the bot is hosted on a Raspberry Pi.**"
 err_mesg_permission = ":x: **You don't have the permission to use this command.**"
 
 # Answers to the insult command

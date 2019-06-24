@@ -49,7 +49,6 @@ async def logout(ctx):
 async def hello(ctx):
     '''Say hello to the bot'''
     await ctx.send(f"Hello {ctx.author.name}")
-    print(f"{ctx.author.guild.channels}")
 
 @client.command(aliases= ['random', 'dice', 'rng'])
 async def roll(ctx, arg1: int = 1, arg2: int = 6):
