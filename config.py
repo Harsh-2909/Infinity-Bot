@@ -1,7 +1,7 @@
 '''This file is required to run Discord.py bot'''
 
 # Discord App token
-bbtoken = "NTAxOTY4NTcyOTk4NzQ2MTQz.DqhlVw.h9Tz_uwBswlGFMj2CuwsuoFnSTM" #CHANGE TOKEN BEFORE SYNC!! 
+bbtoken = "Your Token" #CHANGE TOKEN BEFORE SYNC!! 
 
 # YouTube API key (https://console.developers.google.com/apis/credentials/key)
 key = "key here" #CHANGE KEY BEFORE SYNC!!
